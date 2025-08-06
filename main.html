@@ -1,16 +1,31 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <title>Random User Info</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+  <div class="container">
+    <div id="userCard">
+      <img id="userImage" src="" alt="User Image">
+      <h2 id="userName"></h2>
+    </div>
 
+    <div class="buttons">
+      <button data-attr="age">Age</button>
+      <button data-attr="email">Email</button>
+      <button data-attr="phone">Phone</button>
+    </div>
+
+    <div id="additionalInfoSection">
+      <h3>Additional Info</h3>
+      <p id="additionalInfoText"></p>
+    </div>
+
+    <button id="getUser">Get New User</button>
+  </div>
+
+  <script src="script.js"></script>
 </body>
-
 </html>
